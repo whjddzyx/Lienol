@@ -108,22 +108,22 @@
 
 		partition@22c0000 {
 			label = "overly";
-			reg = <0x22c0000 0x1000000>;
+			reg = <0x22c0000 0x4000000>;
 		};
 
 		partition@32c0000 {
 			label = "firmware_backup";
-			reg = <0x32c0000 0x2000000>;
+			reg = <0x62c0000 0x1000000>;
 		};
 
 		partition@52c0000 {
 			label = "oem";
-			reg = <0x52c0000 0x200000>;
+			reg = <0x72c0000 0x200000>;
 		};
 
 		partition@54c0000 {
 			label = "opt";
-			reg = <0x54c0000 0x2ac0000>;
+			reg = <0x74c0000 0xac0000>;
 		};
 	};
 };
